@@ -55,7 +55,10 @@ public class CoreItems {
 	public static final FeatureItem<ItemForestry> INGOT_COPPER = REGISTRY.item(ItemForestry::new, "ingot_copper");
 	public static final FeatureItem<ItemForestry> INGOT_TIN = REGISTRY.item(ItemForestry::new, "ingot_tin");
 	public static final FeatureItem<ItemForestry> INGOT_BRONZE = REGISTRY.item(ItemForestry::new, "ingot_bronze");
-
+	
+	/* Nuggets */
+	public static final FeatureItem<ItemForestry> NUGGET_TIN = REGISTRY.item(ItemForestry::new, "nugget_tin");
+	
 	/* Tools */
 	public static final FeatureItem<ItemWrench> WRENCH = REGISTRY.item(ItemWrench::new, "wrench");
 	public static final FeatureItem<ItemPipette> PIPETTE = REGISTRY.item(ItemPipette::new, "pipette");

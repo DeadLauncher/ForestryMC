@@ -53,6 +53,8 @@ public class ForestryTags {
 		public static final ITag.INamedTag<Item> INGOTS_COPPER = forgeTag("ingots/copper");
 		public static final ITag.INamedTag<Item> INGOTS_TIN = forgeTag("ingots/tin");
 
+		public static final ITag.INamedTag<Item> NUGGETS_TIN = forgeTag("nuggets/tin");
+
 		public static final ITag.INamedTag<Item> GEARS = forgeTag("gears");
 		public static final ITag.INamedTag<Item> GEARS_BRONZE = forgeTag("gears/bronze");
 		public static final ITag.INamedTag<Item> GEARS_COPPER = forgeTag("gears/copper");
