@@ -56,6 +56,9 @@ public final class ForestryItemTagsProvider extends ItemTagsProvider {
 		tag(ForestryTags.Items.INGOTS_TIN).add(CoreItems.INGOT_TIN.item());
 		tag(ForestryTags.Items.INGOTS_COPPER).add(CoreItems.INGOT_COPPER.item());
 
+		addToTag(Tags.Items.NUGGETS, ForestryTags.Items.NUGGETS_TIN);
+		tag(ForestryTags.Items.NUGGETS_TIN).add(CoreItems.NUGGET_TIN.item());
+
 		tag(ForestryTags.Items.DUSTS_ASH).add(CoreItems.ASH.item());
 		tag(ForestryTags.Items.GEMS_APATITE).add(CoreItems.APATITE.item());
 
